@@ -10,13 +10,13 @@ namespace Tic_Tac_Toe
 {
 
 	
-	static class Board
+	public class Board
 	{
 		public static char[] boardTiles = {' ',' ',' ',' ' ,' ',' ',' ', ' ',' ' };
 
 
 
-		public static void DrawBoard()
+		public  void DrawBoard()
 		{
 
 			Console.WriteLine($" {boardTiles[0]} "+"| " + $" {boardTiles[1]} " + " | " + $"{boardTiles[2]}");
