@@ -28,6 +28,16 @@ namespace Tic_Tac_Toe
 		}
 
 
+		public bool IsPlayableTile(char tile)
+		{
+			if (tile == ' ')
+			{
+
+				return true;
+			}
+			else return false;
+
+		}
 
 
 
