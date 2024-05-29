@@ -10,17 +10,17 @@ namespace Tic_Tac_Toe
 	{
 
 
-		public string Name { get; set; }
+		public string? Name { get; set; }
 
 		public char Icon { get; init; } 
 
-		public Player(string name,char icon) {
+		public Player(char icon) {
 		
-		this.Name = name;
 		this.Icon = icon;
+		
 		}
 
-
+		
 
 	}
 }
