@@ -15,7 +15,7 @@ namespace Tic_Tac_Toe
 		public char Icon { get; init; } 
 
 		public Player(char icon) {
-		
+	
 		this.Icon = icon;
 		
 		}

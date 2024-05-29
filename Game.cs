@@ -17,14 +17,15 @@ namespace Tic_Tac_Toe
 		public Game(string player1, string player2)
 		{
 
+			///Check If Names Are Empty
 			if(player1== null || string.IsNullOrEmpty(player1))
 			{
-				player1 = "Player1";
+				this.PlayerX.Name = "Player1";
 
 			}
 			else if(player2== null || string.IsNullOrEmpty(player2))
 			{
-				player2 = "Player2";
+				this.PlayerO.Name = "Player2";
 			}
 
 			else
@@ -34,7 +35,7 @@ namespace Tic_Tac_Toe
 
 			}
 
-
+			
 
 		}
 

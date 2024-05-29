@@ -19,11 +19,19 @@ namespace Tic_Tac_Toe
 		{
 			Console.ForegroundColor = color;
             Console.WriteLine(character);
-
+			Console.ForegroundColor=ConsoleColor.White;
 
 
         }
 
+		public static void Write(string character, ConsoleColor color)
+		{
+			Console.ForegroundColor = color;
+			Console.Write(character);
+			Console.ForegroundColor = ConsoleColor.White;
+
+
+		}
 
 
 
